@@ -159,7 +159,7 @@ void RInfoWIndow::startEvent(RStartEvent &)
         numbers_[i].rename("rcNum " + std::to_string(i));
     }
 
-    RPack pack(":/info-icons");
+    RPack pack(":/icon/info-icons");
     const RPack::FInfo *info;
 
     info = pack.getFileInfo(":/cursor-24.png");

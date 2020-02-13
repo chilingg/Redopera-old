@@ -5,7 +5,7 @@ using namespace Redopera;
 
 int main()
 {
-    RResource::setResourcePath("../../Redopera/icon/");
+    RResource::setResourcePath("../../Redopera/");
     RInfoWIndow window;
     window.show();
     return window.exec();
