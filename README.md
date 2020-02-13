@@ -2,7 +2,7 @@
 
 # Redopera 基于OpenGL的C++多线程2D游戏开发库
 
-  * Redopera使用事件循环，其拥有的多线程工具可以很简单的使循环成为异步的。
+  * Redopera使用一个同步事件循环
   * 使用Redopera开发游戏的流程为：继承一个Conrtoller类辅以工具类管理资源类。
   * Redopera的大部分功能模块来源于其他开源项目，以统一实用为目标进行封装。
   * 模块之间尽量避免依赖，在需要的时候可以很容易的进行替换。
@@ -42,8 +42,8 @@
       <td>GLFW、GLAD</td>
    </tr>
    <tr>
-      <td>Debug信息窗口</td>
-      <td>RDebugWindow.h</td>
+      <td>信息窗口</td>
+      <td>RInfoWindow.h</td>
       <td></td>
    </tr>
    <tr>
@@ -117,7 +117,7 @@
    </tr>
    <tr>
       <td>文字平面</td>
-      <td>RTextPlane.h</td>
+      <td>RTextbox.h</td>
       <td>GLAD</td>
    </tr>
    <tr>
@@ -188,7 +188,7 @@
    </tr>
    <tr>
       <td>数据包文件</td>
-      <td>RPackage.h</td>
+      <td>RPack.h</td>
       <td></td>
    </tr>
    <tr>
@@ -204,7 +204,7 @@
    <tr>
       <td rowspan="2" style="text-align:center">OpenGL</td>
       <td>着色器程序</td>
-      <td>RShaderProgram.h</td>
+      <td>RShaderProg.h</td>
       <td>GLAD</td>
    </tr>
    <tr>
@@ -229,7 +229,7 @@
 
 ## 更新
 
-### 发布 1.0.0 Alpha版本 —— 2020.01.XX
+### 发布 1.0.0 Alpha版本 —— 2020.02.13
   * 初步完成基础功能，但未经稳定测试的版本
 
 ---
